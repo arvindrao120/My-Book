@@ -11,7 +11,7 @@ function BookCard() {
   useEffect(() => {
     try {
       const getBook = async () => {
-        const res = await axios.get("https://my-book-xszn.onrender.com");
+        const res = await axios.get("https://my-book-backend-0hl8.onrender.com");
        
 
         setBooks(
